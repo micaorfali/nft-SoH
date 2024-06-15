@@ -1,12 +1,12 @@
 import React from 'react'
-import Button from '../Button/Button'
+import Button from '../button/Button'
 
 const Hero = () => {
   return (
     <section
       className="relative bg-cover bg-center"
       style={{
-        backgroundImage: 'url(/Hero.jpg)',
+        backgroundImage: 'url(/images/Hero.jpg)',
         backgroundRepeat: 'no-repeat'
       }}
     >
@@ -17,7 +17,7 @@ const Hero = () => {
             emotional journey through art. Each NFT captures a unique stage of
             grief, transforming pain into beauty.
           </h1>
-          <Button>Shop All</Button>
+          {/* <Button>Shop All</Button> */}
         </div>
       </div>
     </section>

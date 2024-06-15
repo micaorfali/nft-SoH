@@ -7,7 +7,7 @@ const Lore = () => {
       <div className="flex-shrink-0 pr-4">
         <div className="relative h-full w-1/2 overflow-hidden">
           <Image
-            src="/polaroid anger.jpg"
+            src="/images/polaroid anger.jpg"
             alt="Imagen"
             layout="responsive"
             objectFit="cover"

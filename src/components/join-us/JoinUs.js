@@ -1,5 +1,6 @@
 import React from 'react'
-import Button from '../Button/Button'
+import Button from '../button/Button'
+import Discord from '../../../public/icons/Discord.js'
 
 const JoinUs = () => {
   return (
@@ -17,13 +18,18 @@ const JoinUs = () => {
           </div>
         </div>
         <div className="bg-gray-300 py-7 text-center">
-          <Button>Join Now</Button>
+          <Button
+            text="Join Us"
+            url="https://discord.com/"
+            newTab
+            iconPosition="left"
+            icon={<Discord />}
+          />
         </div>
       </div>
       <div className="w-1/2 p-12">
         hacer el otro pero para eso terminar de ajustar el anterior
       </div>
-      JoinUs
     </section>
   )
 }

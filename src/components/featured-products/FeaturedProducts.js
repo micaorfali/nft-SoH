@@ -1,5 +1,5 @@
 import React from 'react'
-import Card from '../Card/Card'
+import Card from '../card/Card'
 
 const FeaturedProducts = () => {
   const products = [
@@ -25,7 +25,7 @@ const FeaturedProducts = () => {
       }}
     >
       <div className="container mx-auto h-full items-center pt-20 pb-20">
-        <h2 className="text-3xl mb-4 text-black text-center">
+        <h2 className="text-3xl mb-4 text-black text-center font-Swanky_and_Moo_Moo">
           Featured Products
         </h2>
         <p className="mx-64 text-lg">

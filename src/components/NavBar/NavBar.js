@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import Button from '../Button/Button'
+import Button from '../button/Button'
 import Link from 'next/link'
 
 const NavBar = () => {
@@ -20,7 +20,7 @@ const NavBar = () => {
           </div>
 
           <div className="flex items-center">
-            <Button href="/contact">Contact Us</Button>
+            <Link href="/contact"> Contact Us </Link>
           </div>
         </div>
       </div>
