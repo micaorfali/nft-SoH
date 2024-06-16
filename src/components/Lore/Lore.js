@@ -9,8 +9,6 @@ const Lore = () => {
           <Image
             src="/images/polaroid anger.jpg"
             alt="Imagen"
-            layout="responsive"
-            objectFit="cover"
             width={1214}
             height={1000}
           />

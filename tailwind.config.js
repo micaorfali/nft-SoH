@@ -1,4 +1,4 @@
-const { Swanky_and_Moo_Moo } = require('next/font/google')
+const { Swanky_and_Moo_Moo, Whisper } = require('next/font/google')
 
 /** @type {import('tailwindcss').Config} */
 module.exports = {
@@ -10,7 +10,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Swanky_and_Moo_Moo: ['Swanky and Moo Moo', 'serif']
+        Swanky_and_Moo_Moo: ['Swanky and Moo Moo', 'serif'],
+        Whisper: ['Whisper', 'cursive']
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',

@@ -6,17 +6,19 @@ const Button = ({ text, url, newTab, icon, iconPosition }) => {
     <Link
       href={url}
       target={!!newTab && '_blank'}
-      className={`px-6 py-2 font-semibold rounded-2xl shadow-md
-        hover:bg-pink-400 focus:ring-opacity-75 bg-pink-300 flex content-center
+      className={`px-8 py-2 font-semibold rounded-2xl shadow-md
+        hover:bg-pink-400 focus:ring-opacity-75 bg-pink-300 flex content-center text-lg
         ${
           iconPosition === 'left'
             ? 'flex-row'
             : iconPosition === 'right'
               ? 'flex-row-reverse'
               : ''
-        }`}
+        }
+        `}
+      style={{ width: 'fit-content', margin: '0 auto' }}
     >
-      {!!icon && <span className="mx-2">{icon}</span>}
+      {!!icon && <span className="mx-2 align-middle">{icon}</span>}
       {!!text && text}
     </Link>
   )

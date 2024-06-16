@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Button from '../button/Button'
 import Link from 'next/link'
 
 const NavBar = () => {
@@ -10,13 +9,15 @@ const NavBar = () => {
           <div className="flex-shrink-0 flex items-center">
             <Link href="/">
               <Image
-                src="/logo.png"
+                src="/images/logo.png"
                 alt="Seasons of Heartbreak"
                 width={40}
                 height={40}
               />
             </Link>
-            <span className="ml-2 w-1/2">Seasons of Heartbreak</span>
+            <span className="ml-2 w-1/2 font-Whisper">
+              Seasons of Heartbreak
+            </span>
           </div>
 
           <div className="flex items-center">

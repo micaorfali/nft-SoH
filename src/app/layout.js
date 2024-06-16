@@ -1,4 +1,4 @@
-import { Inter, Swanky_and_Moo_Moo } from 'next/font/google'
+import { Inter } from 'next/font/google'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
