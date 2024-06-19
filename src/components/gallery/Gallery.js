@@ -5,7 +5,7 @@ const Gallery = () => {
   return (
     <div className="py-5">
       <h2 className="text-3xl mb-4 text-black text-center font-Swanky_and_Moo_Moo">
-        Our art piecessss
+        Our art pieces
       </h2>
       <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
         <div className="-m-1 flex flex-wrap md:-m-2">

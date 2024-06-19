@@ -3,10 +3,13 @@
 import React from 'react'
 import NavBar from '@/components/navbar/NavBar'
 import Footer from '@/components/footer/Footer'
-import Button from '@/components/button/Button'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
+import { useState } from 'react'
+import Alert from '@/components/alert/Alert'
 
-const Contact = ({}) => {
+const Contact = () => {
+  const [successModal, setSuccessModal] = useState(false)
+
   return (
     <div>
       <NavBar />
@@ -41,10 +44,14 @@ const Contact = ({}) => {
                 }
                 return errors
               }}
-              onSubmit={(values, { setSubmitting }) => {
+              onSubmit={(values, { setSubmitting, resetForm }) => {
                 setTimeout(() => {
-                  handleSubmit(values)
                   setSubmitting(false)
+                  setSuccessModal(true)
+                  resetForm()
+                  setTimeout(() => {
+                    setSuccessModal(false)
+                  }, 5000)
                 }, 1000)
               }}
             >
@@ -92,8 +99,10 @@ const Contact = ({}) => {
                   <div className="text-center">
                     <button
                       type="submit"
-                      className="px-6 py-2 text-white bg-pink-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300"
                       disabled={!isValid || isSubmitting}
+                      className={`px-6 py-2 text-white text-bold rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-300 ${
+                        !isValid || isSubmitting ? 'bg-pink-200' : 'bg-pink-400'
+                      }`}
                     >
                       Send
                     </button>
@@ -101,9 +110,11 @@ const Contact = ({}) => {
                 </Form>
               )}
             </Formik>
+            {successModal && <Alert />}
           </div>
         </div>
       </div>
+
       <Footer />
     </div>
   )

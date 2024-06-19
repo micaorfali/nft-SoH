@@ -1,9 +1,12 @@
 import React from 'react'
 import Image from 'next/image'
 
-const Card = ({ imageSrc, productName, price }) => {
+const Card = ({ imageSrc, productName, price, showInfo }) => {
   return (
-    <div className="max-w-xs rounded overflow-hidden shadow-lg m-4">
+    <div
+      onClick={showInfo}
+      className="max-w-xs rounded overflow-hidden shadow-lg m-4"
+    >
       <Image
         className="w-full"
         src={imageSrc}

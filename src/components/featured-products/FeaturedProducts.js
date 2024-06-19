@@ -1,5 +1,6 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Card from '../card/Card'
+import Modal from '../modal/Modal'
 
 const FeaturedProducts = () => {
   const products = [
@@ -16,6 +17,13 @@ const FeaturedProducts = () => {
       imageSrc: '/images/poster SoH.jpg'
     }
   ]
+
+  const [modal, setModal] = useState(false)
+
+  const showInfo = () => {
+    setModal(true)
+  }
+
   return (
     <section
       className="relative bg-cover bg-center"
@@ -44,10 +52,12 @@ const FeaturedProducts = () => {
               productName={product.productName}
               price={product.price}
               imageSrc={product.imageSrc}
+              showInfo={showInfo}
             />
           ))}
         </div>
       </div>
+      {modal && <Modal />}
     </section>
   )
 }
