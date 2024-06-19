@@ -3,9 +3,9 @@ import Image from 'next/image'
 
 const Lore = () => {
   return (
-    <div className="max-w-7xl mx-auto py-8 px-4 flex items-center">
-      <div className="flex-shrink-0 pr-4">
-        <div className="relative h-full w-1/2 overflow-hidden">
+    <div className="max-w-7xl mx-auto py-8 px-20 flex items-center">
+      <div className="p-12 w-1/2">
+        <div className="relative h-full overflow-hidden">
           <Image
             src="/images/polaroid anger.jpg"
             alt="Imagen"
@@ -14,7 +14,7 @@ const Lore = () => {
           />
         </div>
       </div>
-      <div className="flex-grow text-right w-1/2">
+      <div className="text-right w-1/2">
         <p className="text-2xl">
           Seasons of Heartbreak is an NFT collection that explores the five
           stages of grief after a breakup: Denial, Anger, Bargaining,

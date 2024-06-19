@@ -3,6 +3,7 @@ import Button from '@/components/button/Button'
 import Faq from '@/components/faq/Faq'
 import FeaturedProducts from '@/components/featured-products/FeaturedProducts'
 import Footer from '@/components/footer/Footer'
+import Gallery from '@/components/gallery/gallery'
 import Hero from '@/components/hero/Hero'
 import JoinUs from '@/components/join-us/JoinUs'
 import Lore from '@/components/lore/Lore'
@@ -14,6 +15,7 @@ export default function Home() {
       <NavBar />
       <Hero />
       <Lore />
+      <Gallery />
       <FeaturedProducts />
       <JoinUs />
       <Faq />
