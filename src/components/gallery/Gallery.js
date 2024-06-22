@@ -4,12 +4,12 @@ import Image from 'next/image'
 const Gallery = () => {
   return (
     <div className="py-5">
-      <h2 className="text-3xl mb-4 text-black text-center font-Swanky_and_Moo_Moo">
+      <h2 className="text-4xl text-black text-center font-Swanky_and_Moo_Moo">
         Our art pieces
       </h2>
       <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">
         <div className="-m-1 flex flex-wrap md:-m-2">
-          <div className="flex w-1/5 flex-wrap">
+          <div className="flex w-1/2 md:w-1/5 flex-wrap">
             <div className="w-full p-1 md:p-2">
               <Image
                 alt="gallery"
@@ -20,7 +20,7 @@ const Gallery = () => {
               />
             </div>
           </div>
-          <div className="flex w-1/5 flex-wrap">
+          <div className="flex w-1/2 md:w-1/5 flex-wrap">
             <div className="w-full p-1 md:p-2">
               <Image
                 alt="gallery"
@@ -31,7 +31,7 @@ const Gallery = () => {
               />
             </div>
           </div>
-          <div className="flex w-1/5 flex-wrap">
+          <div className="flex w-1/2 md:w-1/5 flex-wrap">
             <div className="w-full p-1 md:p-2">
               <Image
                 alt="gallery"
@@ -42,7 +42,7 @@ const Gallery = () => {
               />
             </div>
           </div>
-          <div className="flex w-1/5 flex-wrap">
+          <div className="flex w-1/2 md:w-1/5 flex-wrap">
             <div className="w-full p-1 md:p-2">
               <Image
                 alt="gallery"
@@ -53,7 +53,7 @@ const Gallery = () => {
               />
             </div>
           </div>
-          <div className="flex w-1/5 flex-wrap">
+          <div className="flex w-1/2 md:w-1/5 flex-wrap">
             <div className="w-full p-1 md:p-2">
               <Image
                 alt="gallery"

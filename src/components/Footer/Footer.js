@@ -6,32 +6,27 @@ const Footer = () => {
   return (
     <section className="relative py-12 bg-white overflow-hidden">
       <div className="relative z-10 container mx-auto px-4">
-        <div className="flex flex-wrap -m-6">
-          <div className="w-full md:w-1/2 lg:w-5/12 p-6">
+        <div className="flex flex-wrap -m-6 justify-between">
+          <div className="w-full md:w-1/2 lg:w-5/12 p-10">
             <div className="flex flex-col justify-between h-full max-w-sm">
               <div className="mb-11 flex">
                 <Image src="/images/logo.png" alt="" width={100} height={100} />
                 {/* ajustar */}
-                <span className="ml-2 w-1/4 font-Whisper align-middle py-6">
+                <span className="ml-2 w-1/4 font-Whisper align-middle py-6 text-xl leading-5">
                   Seasons of Heartbreak
                 </span>
               </div>
               <div>
-                <p className="mb-14 text-gray-500 text-sm">
+                <p className="md:mb-14 text-gray-500 text-sm mr-16 md:mr-0">
                   Seasons of Heartbreak captures the emotional journey of grief
                   through art. Explore each stage and find beauty in the process
                   of healing.
                 </p>
-                <p className="text-gray-400 text-sm">
-                  © Copyright 2024. All Rights Reserved by Mica.
-                </p>
               </div>
             </div>
           </div>
-          <div className="w-full md:w-1/2 lg:w-2/12 p-6"></div>
-          <div className="w-full md:w-1/2 lg:w-2/12 p-6"></div>
-          <div className="w-full md:w-1/2 lg:w-3/12 p-6">
-            <div className="flex flex-col justify-between h-full">
+          <div className="w-full md:w-1/2 lg:w-3/12 md:p-6 p-10">
+            <div className="flex flex-col h-full">
               <div>
                 <h3 className="mb-2 font-heading font-medium text-base text-black tracking-px">
                   Follow Us On
@@ -82,6 +77,9 @@ const Footer = () => {
                   </Link>
                 </div>
               </div>
+              <p className="text-gray-400 text-sm py-12">
+                © Copyright 2024. All Rights Reserved by Mica.
+              </p>
             </div>
           </div>
         </div>

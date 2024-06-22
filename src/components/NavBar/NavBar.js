@@ -15,12 +15,15 @@ const NavBar = () => {
                 height={40}
               />
             </Link>
-            <span className="ml-2 w-1/2 font-Whisper">
-              Seasons of Heartbreak
-            </span>
+            <Link
+              href="/"
+              className="ml-2 w-1/2 font-Whisper leading-4 text-lg"
+            >
+              <span>Seasons of Heartbreak</span>
+            </Link>
           </div>
 
-          <div className="flex items-center">
+          <div className="flex items-center mr-5 md:m-2">
             <Link href="/contact"> Contact Us </Link>
           </div>
         </div>

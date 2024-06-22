@@ -5,8 +5,10 @@ const Faq = () => {
     <section className="relative py-20 overflow-hidden bg-gray-50">
       <div className="relative container px-4 mx-auto">
         <div className="max-w-7xl mx-auto">
-          <div className="text-center mb-24">
-            <span className="">FAQ</span>
+          <div className="text-center mb-12">
+            <span className="text-4xl text-black text-center font-Swanky_and_Moo_Moo">
+              Frequently Asked Questions
+            </span>
           </div>
           <div className="flex flex-wrap -mx-4">
             <div className="w-full lg:w-1/2 px-4 mb-6 lg:mb-0">

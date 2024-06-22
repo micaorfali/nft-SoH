@@ -34,14 +34,14 @@ const FeaturedProducts = () => {
     >
       <div className="pt-20 pb-20">
         <div className="container mx-auto h-full items-centers pb-10">
-          <h2 className="text-3xl mb-4 text-black text-center font-Swanky_and_Moo_Moo">
+          <h2 className="text-4xl mb-4 text-black text-center font-Swanky_and_Moo_Moo">
             Featured Products
           </h2>
-          <p className="mx-64 text-lg">
+          <p className="mx-20 md:mx-64 text-lg">
             Discover our polaroid package featuring the most impactful images
-            from the collection, as well as our exclusive poster mockups. Each
-            product is designed to bring a fragment of this emotional journey
-            into your personal space.
+            from the collection, as well as our exclusive poster. Each product
+            is designed to bring a fragment of this emotional journey into your
+            personal space.
           </p>
         </div>
 
