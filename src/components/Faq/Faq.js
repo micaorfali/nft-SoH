@@ -2,7 +2,7 @@ import React from 'react'
 
 const Faq = () => {
   return (
-    <section className="relative py-20 overflow-hidden bg-gray-50">
+    <section className="relative py-20 overflow-hidden">
       <div className="relative container px-4 mx-auto">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">

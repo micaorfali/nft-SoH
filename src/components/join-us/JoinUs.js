@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../button/Button'
 import Discord from '../../../public/icons/Discord.js'
 import Twitter from '../../../public/icons/Twitter'
-import Telegram from '../../../public/icons/telegram'
+import Telegram from '../../../public/icons/Telegram'
 
 const JoinUs = () => {
   return (
@@ -21,7 +21,7 @@ const JoinUs = () => {
             </p>
           </div>
         </div>
-        <div className="bg-gray-300 py-7 text-center">
+        <div className="bg-gray-300 py-7 text-center shadow-xl">
           <Button
             text="Join Us"
             url="https://discord.com/"
@@ -44,7 +44,7 @@ const JoinUs = () => {
             </p>
           </div>
         </div>
-        <div className="bg-gray-300 py-7 flex justify-center">
+        <div className="bg-gray-300 py-7 flex justify-center shadow-xl">
           <Button url="https://twitter.com/" newTab icon={<Twitter />} />
           <Button url="http://telegram.org/" newTab icon={<Telegram />} />
         </div>
