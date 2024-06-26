@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 'use client'
 import React from 'react'
-import NavBar from '@/components/navbar/NavBar'
+import NavBar from '@/components/navBar/NavBar'
 import Footer from '@/components/footer/Footer'
 import { Formik, Form, Field, ErrorMessage } from 'formik'
 import { useState } from 'react'
