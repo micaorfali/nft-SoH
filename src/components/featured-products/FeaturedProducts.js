@@ -18,10 +18,12 @@ const FeaturedProducts = () => {
     }
   ]
 
-  const [modal, setModal] = useState(false)
+  const [isOpen, setIsOpen] = useState(false)
+  const [modalInfo, setModalInfo] = useState()
 
-  const showInfo = () => {
-    setModal(true)
+  const showInfo = (id) => {
+    setIsOpen(!isOpen)
+    setModalInfo(products.find((item) => item.id === id))
   }
 
   return (
@@ -52,12 +54,14 @@ const FeaturedProducts = () => {
               productName={product.productName}
               price={product.price}
               imageSrc={product.imageSrc}
-              showInfo={showInfo}
+              showInfo={() => showInfo(product.id)}
             />
           ))}
         </div>
       </div>
-      {modal && <Modal />}
+      {isOpen && (
+        <Modal isOpen={isOpen} showModal={showInfo} modalInfo={modalInfo} />
+      )}
     </section>
   )
 }

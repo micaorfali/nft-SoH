@@ -1,20 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import Image from 'next/image'
 import Button from '../button/Button'
 
-const Modal = () => {
-  const [isOpen, setIsOpen] = useState(true)
-
-  const closeModal = () => {
-    setIsOpen(false)
-  }
-
+const Modal = ({ isOpen, showModal, modalInfo }) => {
+  const { productName, price, imageSrc } = modalInfo
   return (
     isOpen && (
       <div className="fixed top-0 left-0 w-full h-full px-4 py-16 md:py-40 bg-black bg-opacity-50 overflow-y-auto z-50">
         <div className="relative max-w-3xl mx-auto bg-white rounded-lg overflow-hidden flex">
           <button
-            onClick={closeModal}
+            onClick={showModal}
             className="absolute top-0 right-0 mt-4 mr-4 text-gray-500 hover:text-gray-700"
           >
             <svg
@@ -33,18 +28,12 @@ const Modal = () => {
             </svg>
           </button>
           <div className="w-1/2">
-            <Image
-              className="h-full w-full object-cover"
-              src=""
-              alt=""
-              layout="fill"
-              objectFit="cover"
-            />
+            <Image src={imageSrc} alt={productName} width={200} height={200} />
           </div>
           <div className="w-1/2 flex flex-col p-8">
             <div className="mb-4">
               <h3 className="mb-2 text-xl font-semibold text-coolGray-800 leading-7">
-                Milk and honey
+                {productName}
               </h3>
               <p className="text-sm text-coolGray-500 font-medium">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
@@ -56,10 +45,10 @@ const Modal = () => {
               <div className="mb-4">
                 <div className="flex mb-3 items-center justify-between">
                   <span className="text-sm font-medium text-coolGray-500">
-                    Size
+                    Price
                   </span>
                   <span className="text-sm font-medium text-coolGray-900">
-                    2.5 MB
+                    {price}
                   </span>
                 </div>
                 <div className="flex mb-3 items-center justify-between">
