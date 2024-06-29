@@ -5,7 +5,17 @@ const Lore = () => {
   return (
     <div className="max-w-7xl mx-auto py-8 px-20 flex flex-col md:flex-row items-center ">
       <div className="p-12 w-full md:w-1/2">
-        <div className="relative h-full overflow-hidden">
+        <div
+          className="relative h-full overflow-hidden"
+          data-aos="fade-in"
+          data-aos-offset="200"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+          data-aos-mirror="true"
+          data-aos-once="false"
+          data-aos-anchor-placement="top-center"
+        >
           <Image
             src="/images/polaroid anger.jpg"
             alt="Imagen"
