@@ -5,7 +5,7 @@ import ArrowRight from '../../../public/icons/ArrowRight'
 const Hero = () => {
   return (
     <section
-      className="relative bg-cover bg-center"
+      className="relative bg-cover bg-center mt-10"
       style={{
         backgroundImage: 'url(/images/Hero.jpg)',
         backgroundRepeat: 'no-repeat'

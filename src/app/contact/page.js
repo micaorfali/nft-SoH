@@ -13,7 +13,7 @@ const Contact = () => {
   return (
     <div>
       <NavBar />
-      <div className="relative pt-16 pb-16 bg-blueGray-100 overflow-hidden">
+      <div className="relative pt-16 pb-16 bg-blueGray-100 overflow-hidden mt-10">
         <div className="relative z-10 container px-4 mx-auto">
           <p className="text-4xl text-black text-center font-Swanky_and_Moo_Moo mb-6">
             Contact Us
