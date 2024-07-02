@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Gallery = () => {
   return (
-    <div className="py-5">
+    <div className="py-10 pb-20">
       <h2 className="text-4xl text-black text-center font-Swanky_and_Moo_Moo">
         Our art pieces
       </h2>
