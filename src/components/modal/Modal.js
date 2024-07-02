@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Button from '../button/Button'
 
 const Modal = ({ isOpen, showModal, modalInfo }) => {
-  const { productName, price, imageSrc } = modalInfo
+  const { productName, price, imageSrc, description } = modalInfo
   return (
     isOpen && (
       <div className="fixed top-0 left-0 w-full h-full px-4 py-16 bg-black bg-opacity-50 overflow-y-auto z-50">
@@ -41,33 +41,22 @@ const Modal = ({ isOpen, showModal, modalInfo }) => {
               <h3 className="mb-2 text-xl font-semibold text-coolGray-800 leading-7">
                 {productName}
               </h3>
-              <p className="text-sm text-coolGray-500 font-medium">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
-                ullamcorper mattis lorem non. Ultrices praesent amet ipsum justo
-                massa.
-              </p>
+              <p className="text-sm text-gray-500 font-medium">{description}</p>
             </div>
             <div className="flex flex-col flex-grow justify-between">
               <div className="mb-4">
-                <div className="flex mb-3 items-center justify-between">
-                  <span className="text-sm font-medium text-coolGray-500">
-                    Price
-                  </span>
-                  <span className="text-sm font-medium text-coolGray-900">
-                    {price}
-                  </span>
-                </div>
-                <div className="flex mb-3 items-center justify-between">
-                  <span className="text-sm font-medium text-coolGray-500">
-                    Length
-                  </span>
-                  <span className="text-sm font-medium text-coolGray-900">
-                    88 Pages
+                <div className="flex mb-3">
+                  <span className="text-xl font-medium text-coolGray-900">
+                    ${price}
                   </span>
                 </div>
               </div>
               <div>
-                <Button text="Shop now" url="" newTab></Button>
+                <Button
+                  text="Shop now"
+                  url="https://printify.com/"
+                  newTab
+                ></Button>
               </div>
             </div>
           </div>

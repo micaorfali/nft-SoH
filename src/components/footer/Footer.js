@@ -78,7 +78,7 @@ const Footer = () => {
                 </div>
               </div>
               <p className="text-gray-400 text-sm py-12">
-                © Copyright 2024. All Rights Reserved by Mica.
+                © Copyright 2024. <br /> All Rights Reserved by Mica.
               </p>
             </div>
           </div>

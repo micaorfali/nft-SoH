@@ -7,14 +7,18 @@ const FeaturedProducts = () => {
     {
       id: 1,
       productName: 'Polaroid Kit Seasons of Heartbreak',
-      price: 49.99,
-      imageSrc: '/images/polaroidkit.jpg'
+      price: 5.99,
+      imageSrc: '/images/polaroidkit.jpg',
+      description:
+        "Experience the journey through heartbreak with our 'Seasons of Heartbreak' Polaroid Kit. Includes five unique Polaroid-style prints, each representing a stage of grief: Denial, Anger, Bargaining, Depression, and Acceptance. Perfect for art lovers and those navigating their own emotional paths."
     },
     {
       id: 2,
       productName: 'Poster Seasons of Heartbreak',
-      price: 29.99,
-      imageSrc: '/images/poster SoH.jpg'
+      price: 4.99,
+      imageSrc: '/images/poster SoH.jpg',
+      description:
+        "Decorate your space with the 'Seasons of Heartbreak' poster. This high-quality print features imagery from the five stages of grief: Denial, Anger, Bargaining, Depression, and Acceptance. A beautiful blend of nature and emotion, perfect for any room."
     }
   ]
 
@@ -30,7 +34,7 @@ const FeaturedProducts = () => {
     <section
       className="relative bg-cover bg-center"
       style={{
-        backgroundImage: 'url(../../images/niebla.jpg)',
+        backgroundImage: 'url(../../images/niebla1.jpg)',
         backgroundRepeat: 'no-repeat'
       }}
     >
@@ -55,6 +59,7 @@ const FeaturedProducts = () => {
               price={product.price}
               imageSrc={product.imageSrc}
               showInfo={() => showInfo(product.id)}
+              description={product.description}
             />
           ))}
         </div>
