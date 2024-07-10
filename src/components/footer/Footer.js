@@ -11,7 +11,6 @@ const Footer = () => {
             <div className="flex flex-col justify-between h-full max-w-sm">
               <div className="mb-11 flex">
                 <Image src="/images/logo.png" alt="" width={100} height={100} />
-                {/* ajustar */}
                 <span className="ml-2 w-1/4 font-Whisper align-middle py-6 text-xl leading-5">
                   Seasons of Heartbreak
                 </span>

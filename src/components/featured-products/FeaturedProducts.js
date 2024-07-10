@@ -34,16 +34,16 @@ const FeaturedProducts = () => {
     <section
       className="relative bg-cover bg-center"
       style={{
-        backgroundImage: 'url(../../images/niebla1.jpg)',
+        backgroundImage: 'url(../../images/niebla2.jpg)',
         backgroundRepeat: 'no-repeat'
       }}
     >
       <div className="pt-20 pb-20">
         <div className="container mx-auto h-full items-centers pb-10">
-          <h2 className="text-4xl mb-4 text-black text-center font-Swanky_and_Moo_Moo">
+          <h2 className="text-3xl md:text-5xl mb-4 text-black text-center font-Swanky_and_Moo_Moo">
             Featured Products
           </h2>
-          <p className="mx-20 md:mx-64 text-lg">
+          <p className="mx-8 md:mx-64 text-lg text-center">
             Discover our polaroid package featuring the most impactful images
             from the collection, as well as our exclusive poster. Each product
             is designed to bring a fragment of this emotional journey into your

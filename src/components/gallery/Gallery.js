@@ -3,8 +3,8 @@ import Image from 'next/image'
 
 const Gallery = () => {
   return (
-    <div className="py-10 pb-20">
-      <h2 className="text-4xl text-black text-center font-Swanky_and_Moo_Moo">
+    <div className="py-10 pb-20 bg-gray-50">
+      <h2 className="text-3xl md:text-5xl text-black text-center font-Swanky_and_Moo_Moo">
         Our art pieces
       </h2>
       <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-12">

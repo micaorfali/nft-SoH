@@ -2,11 +2,11 @@ import React from 'react'
 
 const Faq = () => {
   return (
-    <section className="relative py-20 overflow-hidden">
+    <section className="relative py-20 overflow-hidden bg-[#DBF2FF] md:px-24">
       <div className="relative container px-4 mx-auto">
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
-            <span className="text-4xl text-black text-center font-Swanky_and_Moo_Moo">
+            <span className="text-3xl md:text-5xl text-black text-center font-Swanky_and_Moo_Moo">
               Frequently Asked Questions
             </span>
           </div>
