@@ -13,15 +13,14 @@ const JoinUs = () => {
           Join our beautiful community
         </h2>
         <p className="mx-8 md:mx-72 text-sm text-center">
-          Discover a supportive and creative space where you can{' '}
+          Discover a supportive and creative space where you can
           <strong> share your journey and stay connected</strong>. Whether
           through our exclusive Discord channels, where you can share your
           images and experiences of the stages of grief with the chance to
           inspire new NFTs, or by following us on social media to stay updated
           on the latest news, releases, and special events and share your
-          journey with us,{' '}
+          journey with us,
           <strong>
-            {' '}
             you'll be part of a community that values your experiences and
             contributions
           </strong>

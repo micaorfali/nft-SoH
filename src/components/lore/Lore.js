@@ -19,14 +19,14 @@ const Lore = () => {
           About the project
         </h2>
         <p className="text-sm">
-          Seasons of Heartbreak is an NFT collection that{' '}
+          Seasons of Heartbreak is an NFT collection that
           <strong>explores the five stages of grief after a breakup</strong>:
           Denial, Anger, Bargaining, Depression, and Acceptance. Inspired by
           personal experiences and enriched by a connection with nature, this
-          collection offers a{' '}
+          collection offers a
           <strong>
             profound and artistic view of emotional struggle and resilience.
-          </strong>{' '}
+          </strong>
           Each piece of art uses a distinct visual approach and is complemented
           by a narrative that invites reflection and healing.
         </p>
