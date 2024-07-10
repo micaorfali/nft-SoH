@@ -7,7 +7,7 @@ const Lore = () => {
       <div className="p-8 w-full md:w-1/2">
         <div className="relative h-full overflow-hidden">
           <Image
-            src="/images/polaroid enojo.png"
+            src="/images/Polaroid enojo.png"
             alt="Imagen"
             width={1214}
             height={1000}
