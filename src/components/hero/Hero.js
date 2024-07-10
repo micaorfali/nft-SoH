@@ -12,7 +12,7 @@ const Hero = () => {
       }}
     >
       <div className="container mx-auto h-full flex items-center justify-center h-100 py-20">
-        <div className="mt-9 mb-9 text-black p-8 w-full md:w-3/4 self-center text-center">
+        <div className="mt-9 mb-9 text-black p-8 w-full md:w-3/4 self-center text-center items-center flex flex-col">
           <h1 className="text-3xl md:text-5xl mb-2 font-Swanky_and_Moo_Moo">
             Explore the Seasons of Heartbreak
           </h1>

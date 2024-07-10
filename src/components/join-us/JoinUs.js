@@ -37,7 +37,7 @@ const JoinUs = () => {
               height={500}
             />
           </div>
-          <div className="bg-white py-7 text-center shadow-xl">
+          <div className="bg-white py-7 text-center shadow-xl flex flex-col align-center items-center">
             <h3 className="text-3xl text-black text-center font-Swanky_and_Moo_Moo mb-5 px-4">
               Discord Community
             </h3>
@@ -50,9 +50,9 @@ const JoinUs = () => {
             />
           </div>
         </div>
-        <div className="w-full md:w-1/3 p-6 md:p-4 flex flex-col">
+        <div className="w-full md:w-1/3 p-6 md:p-4 flex flex-col align-center">
           <div className="card bg-white pt-6 md:pt-12 pl-6 md:pl-12 pr-6 md:pr-12 flex-1 flex flex-col min-h-full">
-            <div className="flex-1 flex justify-center items-center"></div>
+            <br />
             <Image
               src="/images/acceptance.jpeg"
               alt="acceptance"
@@ -60,11 +60,11 @@ const JoinUs = () => {
               height={500}
             />
           </div>
-          <div className="bg-white py-7 text-center shadow-xl">
+          <div className="bg-white py-7 text-center shadow-xl flex flex-col align-center">
             <h3 className="text-3xl text-black text-center font-Swanky_and_Moo_Moo mb-5 px-4">
               Follow Us
             </h3>
-            <div className="flex justify-center">
+            <div className="flex justify-center gap-10">
               <Button url="https://twitter.com/" newTab icon={<Twitter />} />
               <Button url="http://telegram.org/" newTab icon={<Telegram />} />
             </div>

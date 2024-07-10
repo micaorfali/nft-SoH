@@ -16,7 +16,7 @@ const Button = ({ text, url, newTab, icon, iconPosition }) => {
               : ''
         }
         `}
-      style={{ width: 'fit-content', margin: '0 auto' }}
+      style={{ width: 'fit-content' }}
     >
       {!!icon && <span className="mx-2 align-middle">{icon}</span>}
       {!!text && text}
