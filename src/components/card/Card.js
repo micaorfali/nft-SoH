@@ -5,7 +5,7 @@ const Card = ({ imageSrc, productName, price, showInfo }) => {
   return (
     <div
       onClick={showInfo}
-      className="max-w-xs rounded overflow-hidden shadow-lg m-4"
+      className="max-w-xs rounded overflow-hidden shadow-lg m-4 cursor-pointer"
     >
       <Image
         className="w-full"

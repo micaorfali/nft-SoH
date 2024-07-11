@@ -13,9 +13,9 @@ const Contact = () => {
   return (
     <div>
       <NavBar />
-      <div className="relative pt-16 pb-16 bg-blueGray-100 overflow-hidden mt-10">
+      <div className="relative pt-16 pb-16 bg-gray-200 overflow-hidden mt-10">
         <div className="relative z-10 container px-4 mx-auto">
-          <p className="text-4xl text-black text-center font-Swanky_and_Moo_Moo mb-6">
+          <p className="text-3xl md:text-5xl text-black text-center font-Swanky_and_Moo_Moo mb-6">
             Contact Us
           </p>
           <div className="px-11 pt-9 pb-11 bg-white bg-opacity-80 md:max-w-xl mx-auto rounded-4xl shadow-12xl">
@@ -112,27 +112,6 @@ const Contact = () => {
             </Formik>
             {successModal && <Alert />}
           </div>
-        </div>
-      </div>
-      <div className="flex flex-col md:flex-row mb-10">
-        <div className="w-full md:w-1/2 p-10 md:px-32 md:py-16">
-          <h2 className="text-3xl mb-4 text-black text-center font-Swanky_and_Moo_Moo">
-            Our Commitment
-          </h2>
-          <p>
-            We are committed to providing you with excellent service and
-            support. Your inquiries are important to us, and we strive to
-            respond promptly to all messages.
-          </p>
-        </div>
-        <div className="w-full md:w-1/2 p-10 md:px-32 md:py-16">
-          <h2 className="text-3xl mb-4 text-black text-center font-Swanky_and_Moo_Moo">
-            Connect With Us
-          </h2>
-          <p>
-            Follow us on Twitter and join us on Telegram to stay updated on news
-            and announcements.
-          </p>
         </div>
       </div>
 
