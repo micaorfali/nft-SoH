@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import Button from '../button/Button'
 
 const Gallery = () => {
   return (
@@ -65,6 +66,13 @@ const Gallery = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center my-10">
+        <Button
+          text="Shop Now"
+          url="https://testnets.opensea.io/collection/seasonsofheartbreak"
+          newTab
+        ></Button>
       </div>
     </div>
   )

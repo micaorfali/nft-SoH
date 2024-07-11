@@ -23,7 +23,7 @@ const Hero = () => {
             </h2>
           </div>
           <Button
-            text="Shop All"
+            text="Shop Now"
             url="https://testnets.opensea.io/collection/seasonsofheartbreak"
             newTab
             iconPosition="right"

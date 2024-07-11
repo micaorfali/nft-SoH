@@ -21,8 +21,8 @@ const JoinUs = () => {
           on the latest news, releases, and special events and share your
           journey with us,
           <strong>
-            you will be part of a community that values your experiences and
-            contributions
+            &nbsp;you will be part of a community that values your experiences
+            and contributions.
           </strong>
         </p>
       </div>
