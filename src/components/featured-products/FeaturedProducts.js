@@ -32,7 +32,7 @@ const FeaturedProducts = () => {
 
   return (
     <section
-      className="relative bg-cover bg-center"
+      className="relative bg-cover bg-bottom"
       style={{
         backgroundImage: 'url(../../images/niebla2.jpg)',
         backgroundRepeat: 'no-repeat'
