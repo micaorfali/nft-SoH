@@ -49,4 +49,7 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 [Link to the project on Vercel](https://nft-soh.vercel.app/)
 
+## Future improvements
+Add animated transitions with AOS library
+
 ## Enjoy!
